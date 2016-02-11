@@ -1,0 +1,6 @@
+- name: Install brew 
+  pip: name=brew 
+
+- name: Install sshpass
+  homebrew: name=https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
+
