@@ -1,1 +1,1 @@
-- pip: name=sshpass
+- apt: name=sshpass state=present
